@@ -198,3 +198,15 @@ class PolitenessStrategies(Transformer):
             plt.show()
 
         return proportions
+    
+    def feature_counts(self, text):
+        
+        prevalence,_ = self._extractor_lookup[self.strategy_collection](text)
+        
+        return prevalence
+    
+    def meta_strategies(self, text):
+        
+        _, meta = self._extractor_lookup[self.strategy_collection](text)
+        
+        return meta
