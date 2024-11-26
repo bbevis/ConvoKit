@@ -15,6 +15,9 @@ from convokit.politeness_collections.politeness_cscw_zh.strategy_extractor impor
 from convokit.politeness_collections.politeness_local.strategy_extractor import (
     get_local_politeness_strategy_features,
 )
+from convokit.politeness_collections.politeness_2024.strategy_extractor import (
+    get_2024_politeness_strategy_features,
+)
 from convokit.text_processing.textParser import process_text
 from convokit.transformer import Transformer
 
@@ -53,6 +56,7 @@ class PolitenessStrategies(Transformer):
             "politeness_api": get_politeness_strategy_features,
             "politeness_local": get_local_politeness_strategy_features,
             "politeness_cscw_zh": get_chinese_politeness_strategy_features,
+            "politeness_2024": get_2024_politeness_strategy_features,
         }
 
     def transform(
