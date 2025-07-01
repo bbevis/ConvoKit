@@ -1,0 +1,3 @@
+[submodule "convokit/politeness_collections/politeness_2025"]
+	path = convokit/politeness_collections/politeness_2025
+	url = https://github.com/bbevis/politenessPy.git

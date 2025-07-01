@@ -56,7 +56,7 @@ class PolitenessStrategies(Transformer):
             "politeness_api": get_politeness_strategy_features,
             "politeness_local": get_local_politeness_strategy_features,
             "politeness_cscw_zh": get_chinese_politeness_strategy_features,
-            "politeness_2025": get_2024_politeness_strategy_features,
+            "politeness_2025": get_2025_politeness_strategy_features,
         }
 
     def transform(
