@@ -34,6 +34,7 @@ class PolitenessStrategies(Transformer):
         "politeness_api": English politeness strategies proposed in A computational approach to politeness with application to social factors (https://www.cs.cornell.edu/~cristian/Politeness.html)
         "politeness_local": English politeness strategies realized through local markers as used in Facilitating the Communication of Politeness through Fine-Grained Paraphrasing (https://www.cs.cornell.edu/~cristian/Politeness_Paraphrasing.html)
         "politeness_cscw_zh":  Chinese politeness strategies adapted from `Studying Politeness across Cultures using English Twitter and Mandarin Weibo (https://dl.acm.org/doi/abs/10.1145/3415190)
+        "politeness_2025": English politeness strategies with simplified usage and enhanced feature extraction (https://github.com/bbevis/politenessPy).
         Default is "politeness_api".
     :param verbose: whether and how often to print status messages while computing features.
     """
